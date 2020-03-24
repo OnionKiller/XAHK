@@ -29,15 +29,23 @@ ProgState := 0
 ;===================================================================================================
 ;Shortcuts
 ;===================================================================================================
-Hotkey	!^f,	Fishing			; Pressing ctrl + alt + f will start fishing
-Hotkey  !^e,	JumpFly			; Pressing ctrl + alt + e will dubble hit space and fire a rockct in
+Hotkey	<!<^f,	Fishing			; Pressing ctrl + alt + f will start fishing
+Hotkey  <!<^e,	JumpFly			; Pressing ctrl + alt + e will dubble hit space and fire a rockct in
 								; main hand
-Hotkey  !^c,	Concrete		; Pressing ctrl + alt + c will start concrete farming
-Hotkey  !^m,	MobGrind		; Pressing ctrl + alt + m will start mob grinding
-Hotkey	!^s,	Stop			; Pressing ctrl + alt + s will stop it
-Hotkey  !^w,    SelectWindow 	;Allows user to select window to control by hovering mouse over it and
+Hotkey  <!<^c,	Concrete		; Pressing ctrl + alt + c will start concrete farming
+Hotkey  <!<^m,	MobGrind		; Pressing ctrl + alt + m will start mob grinding
+Hotkey	<!<^s,	Stop			; Pressing ctrl + alt + s will stop it
+Hotkey  <!<^w,    SelectWindow 	;Allows user to select window to control by hovering mouse over it and
 								;Pressing ctrl + alt + w
-
+								
+Hotkey	!>^>f,	Fishing			; Pressing ctrl + alt + f will start fishing
+Hotkey  !>^>e,	JumpFly			; Pressing ctrl + alt + e will dubble hit space and fire a rockct in
+								; main hand
+Hotkey  !>^>c,	Concrete		; Pressing ctrl + alt + c will start concrete farming
+Hotkey  !>^>m,	MobGrind		; Pressing ctrl + alt + m will start mob grinding
+Hotkey	!>^>s,	Stop			; Pressing ctrl + alt + s will stop it
+Hotkey  >!^>w,    SelectWindow 	;Allows user to select window to control by hovering mouse over it and
+								;Pressing ctrl + alt + w
 ;===================================================================================================
 ;Menu
 ;===================================================================================================
